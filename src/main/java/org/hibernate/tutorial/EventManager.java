@@ -28,6 +28,10 @@ import org.hibernate.tutorial.util.HibernateUtil;
 // I did this tutorial a bit over 10 years ago
 // https://www.stlplace.com/2010/03/28/some-corrections-to-hibernate-tutorial/
 //
+// Caused by: java.lang.ClassNotFoundException: org.hsqldb.jdbcDriver
+//	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+//	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+//
 public class EventManager {
 
     public static void main(String[] args) {
